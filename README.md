@@ -25,24 +25,6 @@ Install Dependencies:
 pip install flask
 
 
-Run the Application:
-python app.py
-
-
-Access the Website:Open http://localhost:5000 in your browser.
-
-
-Project Structure
-See folder_structure.md for a detailed breakdown of the project directory.
-Deployment (Bonus)
-To deploy on Vercel, Render, or Railway:
-
-Push the project to a GitHub repository (https://github.com/vvnssrnath2002/portfolio).
-Connect the repository to your chosen platform.
-Configure the platform to install Python and run app.py with:flask run --host=0.0.0.0 --port=$PORT
-
-
-
 Evaluation Criteria
 
 Frontend Design (30): Responsive, colorful layout with Tailwind CSS, featuring gradients and hover effects.
