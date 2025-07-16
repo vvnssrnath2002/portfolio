@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <section class="text-center py-12">
+        <h1 class="text-4xl font-bold mb-4 text-indigo-800">Welcome to My Portfolio</h1>
+        <p class="text-lg mb-6 text-gray-700">Hi, I'm V V N S S Raghu Nath, a Full-Stack Developer and ML Enthusiast pursuing M.Tech in Computer Science and Engineering (ML & AI) at Lovely Professional University.</p>
+        <button id="toggleMessage" class="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition transform hover:scale-105">Explore My Work</button>
+    </section>
+    <section id="projectsPreview" class="py-12 hidden">
+        <h2 class="text-3xl font-bold mb-4 text-indigo-800">Featured Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition transform hover:scale-105">
+                <h3 class="text-xl font-semibold text-indigo-700">Bone Fracture Detection</h3>
+                <p class="text-gray-600 text-sm mt-1">April 2023 – July 2023</p>
+                <p class="mt-2 text-gray-700">CNN-based system to classify X-ray images using OpenCV.</p>
+                <a href="/projects" class="text-indigo-600 hover:underline mt-2 inline-block">View Details</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition transform hover:scale-105">
+                <h3 class="text-xl font-semibold text-indigo-700">Sentiment Analysis</h3>
+                <p class="text-gray-600 text-sm mt-1">November 2023 – May 2024</p>
+                <p class="mt-2 text-gray-700">Django-based web app for tweet sentiment classification.</p>
+                <a href="/projects" class="text-indigo-600 hover:underline mt-2 inline-block">View Details</a>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition transform hover:scale-105">
+                <h3 class="text-xl font-semibold text-indigo-700">Rainfall Prediction</h3>
+                <p class="text-gray-600 text-sm mt-1">February 2025 – April 2025</p>
+                <p class="mt-2 text-gray-700">XAI system using CNNs and LSTMs, deployed with Flask.</p>
+                <a href="/projects" class="text-indigo-600 hover:underline mt-2 inline-block">View Details</a>
+            </div>
+        </div>
+    </section>
+{% endblock %}

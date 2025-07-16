@@ -1,4 +1,3 @@
-# portfolio
 V V N S S Raghu Nath's Portfolio Website
 A full-stack personal portfolio website showcasing my skills, projects, and experience as a Full-Stack Developer and ML enthusiast.
 Features

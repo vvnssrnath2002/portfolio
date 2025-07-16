@@ -1,0 +1,12 @@
+[
+    {
+        "title": "My Journey in Machine Learning",
+        "date": "2025-07-01",
+        "content": "In this post, I share my experience developing AI systems, from bone fracture detection using CNNs to rainfall prediction with XAI techniques."
+    },
+    {
+        "title": "Building Web Apps with Flask and Django",
+        "date": "2025-07-10",
+        "content": "I discuss my projects, including a sentiment analysis system and an online doctor appointment platform, highlighting the power of Python frameworks."
+    }
+]
